@@ -1,0 +1,127 @@
+body {
+    background: #E5E5E5;
+}
+.union {
+    position: absolute;
+    width: 620px;
+    height: 393.12px;
+    left: 300px;
+    top: 70px;
+    
+}
+.notfound {
+    position: absolute;
+    width: 622px;
+    height: 380.23px;
+    left: 298px;
+    top: 57px;
+   
+}
+.vector1 {
+    position: absolute;
+    width: 171.04px;
+    height: 221.44px;
+    left: 489px;
+    top: 80px;
+}
+.ellipse1 {
+    position: absolute;
+    width: 40px;
+    height: 64px;
+    left: 510px;
+    top: 130px;
+}
+.ellipse2 {
+    position: absolute;
+    width: 40px;
+    height: 64px;
+    left: 600px;
+    top: 130px;
+}
+.vector4 {
+    position: absolute;
+    width: 37.86px;
+    height: 63.99px;
+    left: 557px;
+    top: 200px;
+}
+.somethingwrong {
+    position: absolute;
+    width: 748px;
+    height: 73px;
+    left: 300px;
+    top: 480px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+}
+.thepage {
+    position: absolute;
+    width: 569px;
+    height: 73px;
+    left: 370px;
+    top: 570px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    /* or 130% */
+
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .image {
+        width: 100%;
+        height: 400px;
+        background-size: contain;
+    }
+    .union {
+        width: 620px;
+        height: auto;
+        left: 60px;
+    }
+    .notfound {
+        width: 622px;
+        height: auto;
+        left: 58px;
+    }
+    .vector1 {
+        left: 250px;
+        top: 85px;
+    }
+    .ellipse1 {
+        left: 280px;
+        top: 120px;
+    }
+    .ellipse2 {
+        left: 350px;
+        top: 120px;
+    }
+    .vector4 {
+        left: 315px;
+        top: 190px;
+    }
+    .somethingwrong {
+        left: auto;
+        top: 500px;
+    }
+    .thepage {
+        left: 100px;
+        top: 590px;
+    }
+  }
+@media only screen and (min-device-width: 400px) {
+    .image {
+        width: 100%;
+        height: 400px;
+        background-size: contain;
+    }
+    
+}
